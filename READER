@@ -1,0 +1,12 @@
+
+在qdvictory大　分享WBShareKit进行修改，主要是由于T腾讯微薄不能发图片。
+
+新版WBShareKit，目前支持新浪微博，腾讯QQ，认证方式使用的oauth2.0。
+
+在WBSDKGlobal.h
+修改配置信息
+#define kWBAppkey @"xxxxxx"
+#define kWBSecret @"xxxxxxx"
+
+#define kQQAppkey @"xxxxx"
+#define kQQSecret @"xxxxxx" 
